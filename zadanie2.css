@@ -1,0 +1,67 @@
+/*<header>header</header>
+    <nav>nav</nav>
+    <section>section
+        <article>article</article>
+        <article>article</article>
+    </section>
+    <aside>aside</aside>
+    <footer>footer</footer>*/
+
+header, nav, section, aside, footer{
+    background-color:silver;
+}
+
+header{
+    padding:15px;
+    float:left;
+    width:25%;
+    margin:5px;
+    margin-right:0px;
+}
+
+nav{
+    padding:15px;
+    float: left;
+    width:5%;
+    margin:5px;
+    margin-left:0px;
+    margin-bottom:10px;
+}
+
+section{
+    clear: both;
+    padding:15px;
+    width:25%;
+    float:left;
+
+    margin:5px;
+}
+
+article{
+    background-color: white;
+
+    padding:15px;
+    margin:15px;
+}
+
+aside{
+    padding:10px;
+    float:left;
+    width: 5%;
+    padding-bottom: 160px;
+
+    margin:5px;
+}
+
+footer{
+    clear:both;
+    padding:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:5px;
+    width:32.7%;
+}
+
+header, section, footer{
+    margin-left:30%;
+}
